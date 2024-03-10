@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">  
+        function msg(){  
+         alert("your Account's been created");  
+        }  
+        </script>  
+</head>
+<body>
+    <div class="outter-box">
+        <div class="inner-box">
+            <header class="signup header">
+               <h1>Signup</h1>
+               <p>it just takes 30 seconds </p>
+            </header>
+            <main class="signup-body">
+               <form action="#">
+                
+                <p>
+                    <label for="fullname">Full Name: </label>
+                    <input type ="text" id="fullname" placeholder="Prince Kumar Padit"required>
+                </p>
+                <p>
+                    <label for="email">Your email: </label>
+                    <input type ="email"  placeholder="Prince123841426@gmail.com"required>
+                </p> 
+                <p>
+                    <label for="password">Your Password: </label>
+                    <input type ="password" id="Password" placeholder="At least 8 character"required>
+                </p> 
+                   <p>
+                    <input type="submit" id="submit" value="Create Account" onclick="msg()" >
+                </p>
+               </form>
+            </main>
+            <footer class="signup-footer">
+             <p>Already have an Account? <a href="apna.html">Login</a></p>
+            </footer>
+        </div>
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+    </div>
+</body>
+</html>

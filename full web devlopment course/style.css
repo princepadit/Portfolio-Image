@@ -1,0 +1,16 @@
+.container{
+    /* height: 100px;
+    border: 2px solid red;
+    display: flex; 
+    /* flex-direction: column; */
+    display: flex; 
+    flex-wrap: wrap; 
+}
+.box{
+   
+   border: 8px solid green;
+   margin: 10px 0;
+   width: 80px;
+   height: 100px;
+   background-color: aliceblue;
+}

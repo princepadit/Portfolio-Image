@@ -1,0 +1,62 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px ;
+}
+h2{
+    background-color: aqua;
+    color: aquamarine;
+    text-align: center;
+    text-shadow: 3px 4px rebeccapurple;
+}
+p{
+    background-color: aquamarine;
+}
+.h{
+ color: red;
+}
+.h1{
+    color:teal;
+}
+.primary-btn:Link{
+    background-color: black;
+    color: green;
+
+}
+.primary-btn:visited
+{
+  color: orange;
+}
+.primary-btn:hover{
+    
+    color: brown;
+    background-color: black;
+
+}
+.primary-btn:active{
+    color: black;
+    background-color: white;
+    border: 4px solid green;
+ }
+/*ul li:first-child{
+    background-color: violet;
+}
+ul li:last-child{
+    background-color: red;
+} */
+ul li:nth-child(2n +1){
+    background-color: gray;
+}
+h2::first-letter{
+    font-size: 3rem;
+    color: blue;
+
+}
+::selection{
+    color: greenyellow;
+    background-color: black;
+}
+.required::after{
+    content: '*';
+    color: red;
+}
+
